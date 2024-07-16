@@ -1,0 +1,48 @@
+/* CSS File for a Validation Form */
+
+body{
+    background-color: #EEEDEB;
+}
+
+.container{
+    margin-left: 70px;
+}
+
+.custom-btn{
+    background-color: #111214;
+    border: #111200 2px solid;
+    transition: box-shadow 0.3s ease;
+}
+
+.custom-btn:hover{
+    background-color: #111200;
+    border-color: #111200;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-weight: 600;
+    padding: 6px 11px;
+}
+
+.form-control {
+    transition: box-shadow 0.3s ease;
+}
+  
+.form-control:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+h2{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+
+h2:hover{
+    font-weight: 900;
+}
+
+label{
+    font-weight: 400;
+    font-size: large;
+}
